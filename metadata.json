@@ -1,0 +1,5 @@
+{
+  "name": "Supplier Onboarding Portal",
+  "description": "A centralized portal for suppliers to submit company details, upload registration documents, and track their onboarding status.",
+  "requestFramePermissions": []
+}
