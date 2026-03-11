@@ -11,11 +11,11 @@ export default function Login() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     // Simple mock authentication for prototype
-    if (password === "admin123") {
+    if (password === "LeaderEnergy") {
       localStorage.setItem("isAdminAuthed", "true");
       navigate("/admin");
     } else {
-      setError("Invalid password. Hint: admin123");
+      setError("Invalid password.Please enter again");
     }
   };
 
